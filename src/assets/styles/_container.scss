@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  max-width: 1024px;
+  min-width: 360px;
+  margin: 0 auto;
+  flex-direction: row;
+
+  .sidebar {
+    // Элемент БЭМ
+    width: 250px;
+  }
+
+  .content {
+    // Элемент БЭМ
+    margin: 0 auto;
+  }
+}
